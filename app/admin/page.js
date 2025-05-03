@@ -82,9 +82,16 @@ export default function AdminView() {
   
   return (
     <div className="min-h-screen p-4">
-      <div style={{ backgroundColor: 'var(--header)', padding: '1rem', borderRadius: '0.5rem', marginBottom: '1rem' }}>
-        <h1 className="text-3xl font-bold mb-2 text-white">Eurotrash Comedy</h1>
-        <h2 className="text-xl mb-0 text-white">Struggles of European Women</h2>
+      <div style={{ backgroundColor: '#F4BEC4', padding: '1rem', borderRadius: '0.5rem', marginBottom: '1rem' }}>
+        <div className="flex flex-col items-center mb-2">
+          <img 
+            src="https://nejbsmohatgvtdjvruvg.supabase.co/storage/v1/object/sign/test-bucket-euro/Screenshot%202025-04-27%20at%2013.58.00.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InN0b3JhZ2UtdXJsLXNpZ25pbmcta2V5XzRlNmQxYTY1LWQxMmQtNDdlNy04MDk1LTc5ZDBiNGQ0YThiYSJ9.eyJ1cmwiOiJ0ZXN0LWJ1Y2tldC1ldXJvL1NjcmVlbnNob3QgMjAyNS0wNC0yNyBhdCAxMy41OC4wMC5wbmciLCJpYXQiOjE3NDU3NTcyNzEsImV4cCI6MTc3NzI5MzI3MX0.5fVQus6rlNW70O1lXxkmY9rfJHYBqCMb_xXVxfCE94Q"
+            alt="Eurotrash Comedy Logo"
+            className="w-64 h-auto"
+          />
+        </div>
+        <h1 className="text-3xl font-bold mb-2 text-white text-center">Eurotrash Comedy</h1>
+        <h2 className="text-xl mb-0 text-white text-center">Struggles of European Women</h2>
       </div>
       
       <div className="mb-4" style={{ backgroundColor: 'var(--secondary-accent)', padding: '0.5rem', borderRadius: '0.25rem' }}>
